@@ -33,9 +33,27 @@ main {
   text-align: center;
 }
 
-.container {
-  display: flex;
+.hero {
   max-width: 1128px;
+}
+
+.container {
+  padding: 10em 15em;
+}
+
+.flex--container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.green {
+  background-color: var(--dark-green-bkgrndcolor);
+}
+
+.orange {
+  background-color: var(--orange-bkgrndcolor);
 }
 
 h1 {
@@ -51,11 +69,20 @@ p {
   font-size: 2.1rem;
 }
 
+.green,
+.orange {
+  color: #fff;
+}
+
 h1,
 h2 {
   font-family: var(--playfair);
 }
 
+.orangeh2 {
+  color: var(--orange-bkgrndcolor);
+  text-align: center;
+}
 span {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
