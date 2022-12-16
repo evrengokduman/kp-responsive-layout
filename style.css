@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap");
 
 :root {
   --cream-bkgrndcolor: #f3eed9;
@@ -17,11 +17,66 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--roboto);
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: var(--dark-green-bkgrndcolor);
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: var(--playfair);
+  margin-top: 0;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+section {
+  padding: 4em 0;
 }
 
 .container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  color: var(--cream-bkgrndcolor);
+}
+
+.section-title--dark {
+  color: var(--orange-bkgrndcolor);
+}
+
+.intro {
+  padding: 14rem 0;
+  text-align: center;
+  background: var(--cream-bkgrndcolor);
+  color: var(--orange-bkgrndcolor);
+}
+
+.intro__text {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 1.125rem;
+  color: var(--dark-green-bkgrndcolor);
+  margin: 0 0 0.25em;
+}
+
+.intro__title {
+  font-size: 3rem;
+}
+
+.section-three {
+  background-color: var(--dark-green-bkgrndcolor);
+  color: #fff;
+}
+
+.section-four {
+  background-color: var(--orange-bkgrndcolor);
+  color: #fff;
 }
